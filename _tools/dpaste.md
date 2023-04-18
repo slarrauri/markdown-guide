@@ -1,9 +1,9 @@
 ---
-title: Boostnote
-category: "notes"
-description: "Boostnote is a Markdown note taking application for developers."
-icon: boostnote.png
-website: https://boostnote.io
+title: dpaste.com
+category: "websites"
+description: "dpaste.com is a programmer pastebin with a Markdown previewing feature."
+icon: dpaste.png
+website: https://dpaste.com
 syntax:
   - id: headings
     available: y
@@ -42,9 +42,9 @@ syntax:
   - id: definition-lists
     available: n
   - id: strikethrough
-    available: y
+    available: n
   - id: task-lists
-    available: y
+    available: n
   - id: emoji-cp
     available: y
   - id: emoji-sc
@@ -56,18 +56,18 @@ syntax:
   - id: superscript
     available: n
   - id: auto-url-linking
-    available: y
-  - id: disabling-auto-url
-    available: y
+    available: n
   - id: html
     available: y
-see-also:
-  - name: Boostnote Markdown cheatsheet
-    link: https://github.com/TobseF/boostnote-markdown-cheatsheet
 ---
 
-[Boostnote](https://boostnote.io) bills itself as a note taking application for developers, but anyone in need of a Markdown application for notes would be happy with this application. Markdown support is excellent. The application's interface is polished and intuitive, and open source clients are available for macOS, Windows, and Linux operating systems. Boostnote allows you create folders, tag notes, and export Markdown files to HTML and PDF file format.
+[dpaste.com](https://dpaste.com) is a programmer pastebin. Use it to share pieces of code in chat rooms, forums, and the like, without pastebombing the conversation. Your code gets a short URL like `https://dpaste.com/ABCD23456`. dpaste supports over 500 syntaxes, including Markdown.
 
-{% include image.html file="/assets/images/tools/boostnote.png" alt="Boostnote Markdown application" width="90" %}
+Markdown items can be previewed, and the preview has a bookmarkable URL. [Python-Markdown](https://python-markdown.github.io/) is used for Markdown rendering.
+
+## Using the Markdown preview
+
+1. Create an item in Markdown syntax (e.g., <https://dpaste.com/DJYAN964N>).
+2. When viewing the item, click the "Preview" button above the content to see the rendered version (e.g., <https://dpaste.com/DJYAN964N-preview>).
 
 {% include tool-syntax-table.html %}
